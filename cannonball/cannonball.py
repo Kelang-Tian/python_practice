@@ -8,6 +8,8 @@ def getInputs():
     time = float(input("Enter the time interval between position calculations: "))
     return angle, vel, h0, time
 
+
+
 class Projectile:
     def __init__(self, angle, velocity, height):
         self.xpos = 0.0
